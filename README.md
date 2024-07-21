@@ -76,9 +76,7 @@ Building Lakehouse using Databricks, Azure storage as a source, and Power BI for
 ### Task 8: Create Key Vault secret and scope
 1. Navigate to the Azure Portal.
 1. Choose `Key Vault` and create a new one.
-1. Select `Access policies` and create a new one. 
-1. In `Permissions` tab check `Get` and `List` under `Secret permissions`. 
-1. In `Principal` tab find our Service Principal and click the Create button.
+1. Select `Access control (IAM)` and add a new role `Key Vault Administrator` for yourself.
 1. Select `Secrets` tab under `Objects`.
 1. Create new secret for `client_id`, `client_secret`, `tenant_id`.
 1. Keep names of the new secrets.
